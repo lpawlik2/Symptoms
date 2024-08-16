@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="48af7a8b-02a2-4ce5-b1b8-aa7162ed5a0e"/>
+  <meta>
+    <lastUpdated value="2024-08-15T18:54:16.415-05:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/RelatedStatusVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-RelatedStatusCS.html">codesystem RelatedStatusCS v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-x-http---example.org-CodeSystem-RelatedStatusCS-absent"> </a>  
+                  <a href="CodeSystem-RelatedStatusCS.html#RelatedStatusCS-absent">absent</a>
+                </td>
+                <td>http://example.org/CodeSystem/RelatedStatusCS</td>
+                <td>Absent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-x-http---example.org-CodeSystem-RelatedStatusCS-present"> </a>  
+                  <a href="CodeSystem-RelatedStatusCS.html#RelatedStatusCS-present">present</a>
+                </td>
+                <td>http://example.org/CodeSystem/RelatedStatusCS</td>
+                <td>Present</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/RelatedStatusVS"/>
+        <version value="0.1.0"/>
+        <name value="RelatedStatusVS"/>
+        <status value="draft"/>
+        <date value="2024-05-27"/>
+        <expansion>
+          <identifier value="urn:uuid:073a6f2c-ec19-4aad-9311-72fb0b31019b"/>
+          <timestamp value="2024-08-15T18:54:24-05:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/CodeSystem/RelatedStatusCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/CodeSystem/RelatedStatusCS"/>
+            <code value="absent"/>
+            <display value="Absent"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/CodeSystem/RelatedStatusCS"/>
+            <code value="present"/>
+            <display value="Present"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/RelatedTypeVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-x-http---loinc.org-100752-5"> </a>  
+                  <a href="https://loinc.org/100752-5/">100752-5</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Exacerbating factors - Reported</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-x-http---loinc.org-100753-3"> </a>  
+                  <a href="https://loinc.org/100753-3/">100753-3</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Alleviating factors - Reported</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="null-x-http---loinc.org-46467-7"> </a>  
+                  <a href="https://loinc.org/46467-7/">46467-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Risk factors</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/RelatedTypeVS"/>
+        <version value="0.1.0"/>
+        <name value="RelatedTypeVS"/>
+        <status value="draft"/>
+        <date value="2024-05-27"/>
+        <expansion>
+          <identifier value="urn:uuid:43cc8689-3585-4507-9d9d-c16a27c931d0"/>
+          <timestamp value="2024-08-15T18:54:24-05:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.77"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.77"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="100752-5"/>
+            <display value="Exacerbating factors - Reported"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="100753-3"/>
+            <display value="Alleviating factors - Reported"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="46467-7"/>
+            <display value="Risk factors"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

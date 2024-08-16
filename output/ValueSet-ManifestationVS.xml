@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ManifestationVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ManifestationVS</b></p><a name="ManifestationVS"> </a><a name="hcManifestationVS"> </a><a name="hcManifestationVS-en-US"> </a><ul><li>Include these codes as defined in <code>https://www.snomed.org</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>53737009</td><td>Acute</td></tr><tr><td>90734009</td><td>Chronic</td></tr><tr><td>255238004</td><td>Continuous</td></tr><tr><td>278499009</td><td>Episodic</td></tr><tr><td>7087005</td><td>Intermittent</td></tr><tr><td>255276005</td><td>Transient</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/ManifestationVS"/>
+  <version value="0.1.0"/>
+  <name value="ManifestationVS"/>
+  <status value="draft"/>
+  <date value="2024-05-27"/>
+  <publisher value="NQF"/>
+  <contact>
+    <name value="NQF"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="https://www.snomed.org"/>
+      <concept>
+        <code value="53737009"/>
+        <display value="Acute"/>
+      </concept>
+      <concept>
+        <code value="90734009"/>
+        <display value="Chronic"/>
+      </concept>
+      <concept>
+        <code value="255238004"/>
+        <display value="Continuous"/>
+      </concept>
+      <concept>
+        <code value="278499009"/>
+        <display value="Episodic"/>
+      </concept>
+      <concept>
+        <code value="7087005"/>
+        <display value="Intermittent"/>
+      </concept>
+      <concept>
+        <code value="255276005"/>
+        <display value="Transient"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

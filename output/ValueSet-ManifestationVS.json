@@ -1,0 +1,50 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ManifestationVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ManifestationVS</b></p><a name=\"ManifestationVS\"> </a><a name=\"hcManifestationVS\"> </a><a name=\"hcManifestationVS-en-US\"> </a><ul><li>Include these codes as defined in <code>https://www.snomed.org</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>53737009</td><td>Acute</td></tr><tr><td>90734009</td><td>Chronic</td></tr><tr><td>255238004</td><td>Continuous</td></tr><tr><td>278499009</td><td>Episodic</td></tr><tr><td>7087005</td><td>Intermittent</td></tr><tr><td>255276005</td><td>Transient</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/ManifestationVS",
+  "version" : "0.1.0",
+  "name" : "ManifestationVS",
+  "status" : "draft",
+  "date" : "2024-05-27",
+  "publisher" : "NQF",
+  "contact" : [{
+    "name" : "NQF",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.snomed.org",
+      "concept" : [{
+        "code" : "53737009",
+        "display" : "Acute"
+      },
+      {
+        "code" : "90734009",
+        "display" : "Chronic"
+      },
+      {
+        "code" : "255238004",
+        "display" : "Continuous"
+      },
+      {
+        "code" : "278499009",
+        "display" : "Episodic"
+      },
+      {
+        "code" : "7087005",
+        "display" : "Intermittent"
+      },
+      {
+        "code" : "255276005",
+        "display" : "Transient"
+      }]
+    }]
+  }
+}

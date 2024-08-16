@@ -1,0 +1,72 @@
+[
+  {
+    "id" : "RelatedStatusCS",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/RelatedStatusCS",
+    "version" : "0.1.0",
+    "name" : "RelatedStatusCS"
+  },
+  {
+    "id" : "symptom.ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/symptom.ig",
+    "version" : "0.1.0",
+    "name" : "SymptomImplementationGuide"
+  },
+  {
+    "id" : "Manifestation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/Manifestation",
+    "version" : "0.1.0",
+    "name" : "Manifestation"
+  },
+  {
+    "id" : "RelatedStatus",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/RelatedStatus",
+    "version" : "0.1.0",
+    "name" : "RelatedStatus"
+  },
+  {
+    "id" : "SymptomProfile",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/SymptomProfile",
+    "version" : "0.1.0",
+    "name" : "SymptomProfile"
+  },
+  {
+    "id" : "ManifestationVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/ManifestationVS",
+    "version" : "0.1.0",
+    "name" : "ManifestationVS"
+  },
+  {
+    "id" : "RelatedStatusVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/RelatedStatusVS",
+    "version" : "0.1.0",
+    "name" : "RelatedStatusVS"
+  },
+  {
+    "id" : "RelatedTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/RelatedTypeVS",
+    "version" : "0.1.0",
+    "name" : "RelatedTypeVS"
+  },
+  {
+    "id" : "ScaleVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/ScaleVS",
+    "version" : "0.1.0",
+    "name" : "ScaleVS"
+  },
+  {
+    "id" : "TimingVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/TimingVS",
+    "version" : "0.1.0",
+    "name" : "TimingVS"
+  }
+]

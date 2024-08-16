@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/ValueSet/ManifestationVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ManifestationVS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ManifestationVS</b></p><a name=\"ManifestationVS\"> </a><a name=\"hcManifestationVS\"> </a><a name=\"hcManifestationVS-en-US\"> </a><ul><li>Include these codes as defined in <code>https://www.snomed.org</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>53737009</td><td>Acute</td></tr><tr><td>90734009</td><td>Chronic</td></tr><tr><td>255238004</td><td>Continuous</td></tr><tr><td>278499009</td><td>Episodic</td></tr><tr><td>7087005</td><td>Intermittent</td></tr><tr><td>255276005</td><td>Transient</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/ValueSet/ManifestationVS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ManifestationVS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-05-27"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "NQF"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "NQF" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://www.snomed.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "53737009" ] ;
+         fhir:display [ fhir:v "Acute" ]
+       ] [
+         fhir:code [ fhir:v "90734009" ] ;
+         fhir:display [ fhir:v "Chronic" ]
+       ] [
+         fhir:code [ fhir:v "255238004" ] ;
+         fhir:display [ fhir:v "Continuous" ]
+       ] [
+         fhir:code [ fhir:v "278499009" ] ;
+         fhir:display [ fhir:v "Episodic" ]
+       ] [
+         fhir:code [ fhir:v "7087005" ] ;
+         fhir:display [ fhir:v "Intermittent" ]
+       ] [
+         fhir:code [ fhir:v "255276005" ] ;
+         fhir:display [ fhir:v "Transient" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

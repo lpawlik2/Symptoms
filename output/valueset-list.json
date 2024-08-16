@@ -1,0 +1,49 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/ValueSet/ManifestationVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ManifestationVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["https://www.snomed.org"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/RelatedStatusVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RelatedStatusVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["http://example.org/CodeSystem/RelatedStatusCS"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/RelatedTypeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RelatedTypeVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/ScaleVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ScaleVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["https://www.snomed.org"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/TimingVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TimingVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["https://www.snomed.org"]
+    }
+  ]
+}

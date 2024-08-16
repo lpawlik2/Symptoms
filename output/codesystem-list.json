@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/CodeSystem/RelatedStatusCS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "RelatedStatusCS",
+      "title" : null,
+      "description" : null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-symptom.ig.json	2673	-	0	0	0	0	0	0	0	79	0	0	0	0	0	0	0	0	0	0	63	94	0	0	0	8	0	0
+fsh-generated/resources/CodeSystem-RelatedStatusCS.json	659	16	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	5	1208	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-Manifestation.json	1710	0	0	0	0	0	0	0	0	46	0	0	0	0	0	0	0	0	0	0	42	502	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-RelatedStatus.json	1707	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	31	157	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-SymptomProfile.json	6768	15	0	0	0	0	0	47	0	94	0	0	0	0	0	0	0	16	0	0	314	731	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ManifestationVS.json	1153	0	0	0	0	0	0	0	0	63	0	0	0	0	0	0	0	0	0	0	16	2174	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-RelatedStatusVS.json	594	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	63	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-RelatedTypeVS.json	971	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	46	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ScaleVS.json	694	2	0	0	0	0	0	0	0	79	0	0	0	0	0	0	0	0	0	0	15	32	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-TimingVS.json	766	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	31	0	0	0	0	0	0

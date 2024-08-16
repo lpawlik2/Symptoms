@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "RelatedTypeVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet RelatedTypeVS</b></p><a name=\"RelatedTypeVS\"> </a><a name=\"hcRelatedTypeVS\"> </a><a name=\"hcRelatedTypeVS-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/TBD/\">TBD</a></td><td>Trigger</td></tr><tr><td><a href=\"https://loinc.org/100752-5/\">100752-5</a></td><td>Exacerbating Factor</td></tr><tr><td><a href=\"https://loinc.org/100753-3/\">100753-3</a></td><td>Alleviating Factor</td></tr><tr><td><a href=\"https://loinc.org/46467-7/\">46467-7</a></td><td>Risk Factor</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/RelatedTypeVS",
+  "version" : "0.1.0",
+  "name" : "RelatedTypeVS",
+  "status" : "draft",
+  "date" : "2024-05-27",
+  "publisher" : "NQF",
+  "contact" : [{
+    "name" : "NQF",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "TBD",
+        "display" : "Trigger"
+      },
+      {
+        "code" : "100752-5",
+        "display" : "Exacerbating Factor"
+      },
+      {
+        "code" : "100753-3",
+        "display" : "Alleviating Factor"
+      },
+      {
+        "code" : "46467-7",
+        "display" : "Risk Factor"
+      }]
+    }]
+  }
+}

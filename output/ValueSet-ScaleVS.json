@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ScaleVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ScaleVS</b></p><a name=\"ScaleVS\"> </a><a name=\"hcScaleVS\"> </a><a name=\"hcScaleVS-en-US\"> </a><ul><li>Include codes from<code>https://www.snomed.org</code> where concept  is-a 4157120</li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/ScaleVS",
+  "version" : "0.1.0",
+  "name" : "ScaleVS",
+  "status" : "draft",
+  "date" : "2024-05-27",
+  "publisher" : "NQF",
+  "contact" : [{
+    "name" : "NQF",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.snomed.org",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "4157120"
+      }]
+    }]
+  }
+}

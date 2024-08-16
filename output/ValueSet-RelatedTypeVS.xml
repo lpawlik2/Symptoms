@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="RelatedTypeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet RelatedTypeVS</b></p><a name="RelatedTypeVS"> </a><a name="hcRelatedTypeVS"> </a><a name="hcRelatedTypeVS-en-US"> </a><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/TBD/">TBD</a></td><td>Trigger</td></tr><tr><td><a href="https://loinc.org/100752-5/">100752-5</a></td><td>Exacerbating Factor</td></tr><tr><td><a href="https://loinc.org/100753-3/">100753-3</a></td><td>Alleviating Factor</td></tr><tr><td><a href="https://loinc.org/46467-7/">46467-7</a></td><td>Risk Factor</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/ValueSet/RelatedTypeVS"/>
+  <version value="0.1.0"/>
+  <name value="RelatedTypeVS"/>
+  <status value="draft"/>
+  <date value="2024-05-27"/>
+  <publisher value="NQF"/>
+  <contact>
+    <name value="NQF"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="TBD"/>
+        <display value="Trigger"/>
+      </concept>
+      <concept>
+        <code value="100752-5"/>
+        <display value="Exacerbating Factor"/>
+      </concept>
+      <concept>
+        <code value="100753-3"/>
+        <display value="Alleviating Factor"/>
+      </concept>
+      <concept>
+        <code value="46467-7"/>
+        <display value="Risk Factor"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

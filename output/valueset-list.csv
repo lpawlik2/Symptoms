@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/ValueSet/ManifestationVS,0.1.0,draft,,ManifestationVS,null,"",,"Other"
+http://example.org/ValueSet/RelatedStatusVS,0.1.0,draft,,RelatedStatusVS,null,"",,"Internal"
+http://example.org/ValueSet/RelatedTypeVS,0.1.0,draft,,RelatedTypeVS,null,"",,"LOINC"
+http://example.org/ValueSet/ScaleVS,0.1.0,draft,,ScaleVS,null,"",,"Other"
+http://example.org/ValueSet/TimingVS,0.1.0,draft,,TimingVS,null,"",,"Other"
