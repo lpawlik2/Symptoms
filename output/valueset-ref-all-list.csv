@@ -1,8 +1,10 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/ValueSet/AssessmentValueVS,0.1.0,draft,,AssessmentValueVS,null,"","StructureDefinition/SymptomProfile","hl7.terminology.r4,Other"
 http://example.org/ValueSet/ManifestationVS,0.1.0,draft,,ManifestationVS,null,"","StructureDefinition/Manifestation","Other"
 http://example.org/ValueSet/RelatedStatusVS,0.1.0,draft,,RelatedStatusVS,null,"","StructureDefinition/RelatedStatus","Internal"
 http://example.org/ValueSet/RelatedTypeVS,0.1.0,draft,,RelatedTypeVS,null,"","StructureDefinition/SymptomProfile","LOINC"
-http://example.org/ValueSet/ScaleVS,0.1.0,draft,,ScaleVS,null,"","StructureDefinition/SymptomProfile","Other"
+http://example.org/ValueSet/RelatedValueVS,0.1.0,draft,,RelatedValueVS,null,"","StructureDefinition/SymptomProfile","hl7.terminology.r4,Other"
+http://example.org/ValueSet/SymptomsVS,0.1.0,draft,,SymptomsVS,null,"","StructureDefinition/SymptomProfile","hl7.terminology.r4,Other"
 http://example.org/ValueSet/TimingVS,0.1.0,draft,,TimingVS,null,"","StructureDefinition/SymptomProfile","Other"
 http://hl7.org/fhir/ValueSet/body-site,4.0.1,draft,"2.16.840.1.113883.4.642.3.141",SNOMEDCTBodyStructures,SNOMED CT Body Structures,"This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).","StructureDefinition/SymptomProfile","SCT"
 http://hl7.org/fhir/ValueSet/data-absent-reason,4.0.1,active,"2.16.840.1.113883.4.642.3.5",DataAbsentReason,DataAbsentReason,"Used to specify why the normally expected content of the data element is missing.","StructureDefinition/SymptomProfile","THO"
@@ -14,3 +16,4 @@ http://hl7.org/fhir/ValueSet/observation-methods,4.0.1,draft,"2.16.840.1.113883.
 http://hl7.org/fhir/ValueSet/observation-status,4.0.1,active,"2.16.840.1.113883.4.642.3.400",ObservationStatus,ObservationStatus,"Codes providing the status of an observation.","StructureDefinition/SymptomProfile","hl7.fhir.r4.core"
 http://hl7.org/fhir/ValueSet/referencerange-appliesto,4.0.1,draft,"2.16.840.1.113883.4.642.3.407",ObservationReferenceRangeAppliesToCodes,Observation Reference Range Applies To Codes,"This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.","StructureDefinition/SymptomProfile","SCT"
 http://hl7.org/fhir/ValueSet/referencerange-meaning,4.0.1,draft,"2.16.840.1.113883.4.642.3.397",ObservationReferenceRangeMeaningCodes,Observation Reference Range Meaning Codes,"This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.","StructureDefinition/SymptomProfile","THO"
+http://hl7.org/fhir/us/core/ValueSet/us-core-survey-codes,6.1.0,active,,USCoreSurveyCodes,US Core Survey Codes,"This value set includes screening and assessment panel codes in LOINC (Refer to [Appendix A](https://loinc.org/kb/users-guide/loinc-database-structure/) of LOINC Users' Guide).","StructureDefinition/SymptomProfile","LOINC"

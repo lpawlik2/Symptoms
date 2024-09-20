@@ -4,6 +4,17 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
+      "url": "http://example.org/StructureDefinition/Abatement",
+      "title": "Abatement",
+      "types": [
+        "dateTime",
+        "string",
+        "Age",
+        "Period",
+        "Range"
+      ]
+    },
+    {
       "url": "http://example.org/StructureDefinition/Manifestation",
       "title": "Manifestation",
       "types": [
@@ -27,6 +38,9 @@
     ]
   },
   "usage": {
+    "http://example.org/StructureDefinition/Abatement": [
+      "Observation"
+    ],
     "http://example.org/StructureDefinition/Manifestation": [
       "Observation"
     ],

@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "RelatedStatusVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet RelatedStatusVS</b></p><a name=\"RelatedStatusVS\"> </a><a name=\"hcRelatedStatusVS\"> </a><a name=\"hcRelatedStatusVS-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-RelatedStatusCS.html\"><code>http://example.org/CodeSystem/RelatedStatusCS</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet RelatedStatusVS</b></p><a name=\"RelatedStatusVS\"> </a><a name=\"hcRelatedStatusVS\"> </a><a name=\"RelatedStatusVS-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-RelatedStatusCS.html\"><code>http://example.org/CodeSystem/RelatedStatusCS</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://example.org/ValueSet/RelatedStatusVS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 

@@ -3,13 +3,13 @@
   "id" : "symptom.ig",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide symptom.ig</b></p><a name=\"symptom.ig\"> </a><a name=\"hcsymptom.ig\"> </a><a name=\"hcsymptom.ig-en-US\"> </a><h2>SymptomImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/symptom.ig</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide symptom.ig</b></p><a name=\"symptom.ig\"> </a><a name=\"hcsymptom.ig\"> </a><a name=\"symptom.ig-en-US\"> </a><h2>SymptomImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/symptom.ig</pre></div>"
   },
   "url" : "http://example.org/ImplementationGuide/symptom.ig",
   "version" : "0.1.0",
   "name" : "SymptomImplementationGuide",
   "status" : "draft",
-  "date" : "2024-08-15T18:54:16-05:00",
+  "date" : "2024-09-19T23:24:50-05:00",
   "publisher" : "NQF",
   "contact" : [{
     "name" : "NQF",
@@ -319,7 +319,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
     },
     {
       "extension" : [{
@@ -602,6 +602,29 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/Abatement"
+      },
+      "name" : "Abatement",
+      "description" : "When in resolution/remission",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/AssessmentValueVS"
+      },
+      "name" : "AssessmentValueVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/Manifestation"
       },
       "name" : "Manifestation",
@@ -670,9 +693,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/ScaleVS"
+        "reference" : "ValueSet/RelatedValueVS"
       },
-      "name" : "ScaleVS",
+      "name" : "RelatedValueVS",
       "exampleBoolean" : false
     },
     {
@@ -684,6 +707,17 @@
         "reference" : "StructureDefinition/SymptomProfile"
       },
       "name" : "Symptom Profile",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SymptomsVS"
+      },
+      "name" : "SymptomsVS",
       "exampleBoolean" : false
     },
     {

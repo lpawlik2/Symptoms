@@ -1,6 +1,18 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://example.org/ValueSet/AssessmentValueVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AssessmentValueVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["https://www.snomed.org", "http://hl7.org/fhir/sid/icd-10-cm"],
+      "uses" : {
+      },
+      "StructureDefinition-SymptomProfile.html" : "Symptom Profile"
+    },
+    {
       "url" : "http://example.org/ValueSet/ManifestationVS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -37,13 +49,25 @@
       "StructureDefinition-SymptomProfile.html" : "Symptom Profile"
     },
     {
-      "url" : "http://example.org/ValueSet/ScaleVS",
+      "url" : "http://example.org/ValueSet/RelatedValueVS",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "ScaleVS",
+      "name" : "RelatedValueVS",
       "title" : null,
       "description" : null,
-      "systems" : ["https://www.snomed.org"],
+      "systems" : ["https://www.snomed.org", "http://hl7.org/fhir/sid/icd-10-cm"],
+      "uses" : {
+      },
+      "StructureDefinition-SymptomProfile.html" : "Symptom Profile"
+    },
+    {
+      "url" : "http://example.org/ValueSet/SymptomsVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SymptomsVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["https://www.snomed.org", "http://hl7.org/fhir/sid/icd-10-cm"],
       "uses" : {
       },
       "StructureDefinition-SymptomProfile.html" : "Symptom Profile"
@@ -203,6 +227,18 @@
       ],
       "oids" : ["2.16.840.1.113883.4.642.3.397"],
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-SymptomProfile.html" : "Symptom Profile"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/core/ValueSet/us-core-survey-codes",
+      "version" : "6.1.0",
+      "status" : "active",
+      "name" : "USCoreSurveyCodes",
+      "title" : "US Core Survey Codes",
+      "description" : "This value set includes screening and assessment panel codes in LOINC (Refer to [Appendix A](https://loinc.org/kb/users-guide/loinc-database-structure/) of LOINC Users' Guide).",
+      "systems" : ["http://loinc.org"],
       "uses" : {
       },
       "StructureDefinition-SymptomProfile.html" : "Symptom Profile"

@@ -1,6 +1,8 @@
 Alias: $observation = http://hl7.org/fhir/StructureDefinition/Observation
 Alias: $loinc = http://loinc.org
 Alias: $snomed = https://www.snomed.org
+Alias: $icd10 = http://hl7.org/fhir/sid/icd-10-cm
+Alias: $us-core-survey-codes = http://hl7.org/fhir/us/core/ValueSet/us-core-survey-codes
 
 RuleSet: Meta
 * ^publisher = "National Quality Forum"
@@ -11,6 +13,16 @@ RuleSet: Meta
 * ^contact.telecom[0].system = #url
 * ^contact.telecom[=].value = "https://www.qualityforum.org"
 * ^copyright = " "
+
+ValueSet: SymptomsVS
+* insert Meta
+* include codes from system $snomed
+* include codes from system $icd10
+
+ValueSet: AssessmentValueVS
+* insert Meta
+* include codes from system $snomed
+* include codes from system $icd10
 
 ValueSet: ManifestationVS
 * insert Meta
@@ -27,6 +39,12 @@ Description: "Manifestation or course of the symptom (e.g., acute, chronic, epis
 * insert Meta
 * value[x] only code
 * value[x] from ManifestationVS (extensible)
+
+Extension: Abatement
+Context: extension
+Description: "When in resolution/remission"
+* insert Meta
+* value[x] only dateTime or Age or Period or Range or string
 
 ValueSet: TimingVS
 * insert Meta
@@ -55,9 +73,9 @@ Context: SymptomProfile.component[timing].extension
 * insert Meta
 * value[x] only boolean*/
 
-ValueSet: ScaleVS
+/*ValueSet: ScaleVS
 * insert Meta
-* include codes from system $snomed where concept is-a #4157120 "Assessment scales"
+* include codes from system $snomed where concept is-a #4157120 "Assessment scales"*/
 
 /*Extension: Scale
 Context: SymptomProfile.component[severity].extension
@@ -71,6 +89,11 @@ ValueSet: RelatedTypeVS
 * include $loinc#100752-5 "Exacerbating Factor"
 * include $loinc#100753-3 "Alleviating Factor"
 * include $loinc#46467-7 "Risk Factor"
+
+ValueSet: RelatedValueVS
+* insert Meta
+* include codes from system $snomed
+* include codes from system $icd10
 
 CodeSystem: RelatedStatusCS
 * insert Meta
@@ -94,6 +117,7 @@ Title: "Symptom Profile"
 Description: " "
 * insert Meta
 * . ^short = "Symptom Profile"
+* extension contains Abatement named abatement 0..1
 * extension contains Manifestation named manifestation 0..1
 * value[x] 0..0
 * dataAbsentReason 0..0
@@ -104,6 +128,7 @@ Description: " "
 * referenceRange 0..0
 * category = $loinc#75325-1 "Symptom" (exactly)
 * code ^short = "Specifies the symptom"
+* code from SymptomsVS (preferred)
 * component ..*
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
@@ -127,8 +152,9 @@ Description: " "
 * component[assessment] ^short = "Assessment"
 * component[assessment].code 1..1
 * component[assessment].code ^short = "Code for specific scale or assessment (e.g., pain scale, anxiety inventory)"
-* component[assessment].code from ScaleVS (extensible)
-* component[assessment].value[x] only Ratio or CodeableConcept
+* component[assessment].code from $us-core-survey-codes (preferred)
+* component[assessment].value[x] only CodeableConcept or Ratio or Quantity
+* component[assessment].value[x] from AssessmentValueVS (preferred)
 /** component[severity].extension contains Scale named scale 1..1*/
 * component[assessment].interpretation 0..0
 * component[assessment].referenceRange 0..0
@@ -137,6 +163,7 @@ Description: " "
 * component[related].code ^short = "Type of related event or item (e.g., trigger, alleviating factor, exacerbating factor, risk factor)"
 * component[related].code from RelatedTypeVS (extensible)
 * component[related].value[x] only string or CodeableConcept
+* component[related].value[x] from RelatedValueVS (preferred)
 * component[related].extension contains RelatedStatus named status 1..1
 * component[related].interpretation 0..0
 * component[related].referenceRange 0..0

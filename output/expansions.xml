@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="48af7a8b-02a2-4ce5-b1b8-aa7162ed5a0e"/>
+  <id value="73094359-361e-4954-8655-4abbdecbdf7e"/>
   <meta>
-    <lastUpdated value="2024-08-15T18:54:16.415-05:00"/>
+    <lastUpdated value="2024-09-19T23:24:50.320-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -34,7 +34,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---example.org-CodeSystem-RelatedStatusCS-absent"> </a>  
+                  <a name="x-http://example.org/CodeSystem/RelatedStatusCS-absent"> </a>  
                   <a href="CodeSystem-RelatedStatusCS.html#RelatedStatusCS-absent">absent</a>
                 </td>
                 <td>http://example.org/CodeSystem/RelatedStatusCS</td>
@@ -42,7 +42,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---example.org-CodeSystem-RelatedStatusCS-present"> </a>  
+                  <a name="x-http://example.org/CodeSystem/RelatedStatusCS-present"> </a>  
                   <a href="CodeSystem-RelatedStatusCS.html#RelatedStatusCS-present">present</a>
                 </td>
                 <td>http://example.org/CodeSystem/RelatedStatusCS</td>
@@ -57,8 +57,8 @@
         <status value="draft"/>
         <date value="2024-05-27"/>
         <expansion>
-          <identifier value="urn:uuid:073a6f2c-ec19-4aad-9311-72fb0b31019b"/>
-          <timestamp value="2024-08-15T18:54:24-05:00"/>
+          <identifier value="urn:uuid:f8a0b936-1a18-49c0-b911-dff176b66847"/>
+          <timestamp value="2024-09-19T23:24:59-05:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -101,7 +101,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.78</p>
             <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
@@ -117,7 +117,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---loinc.org-100752-5"> </a>  
+                  <a name="x-http://loinc.org-100752-5"> </a>  
                   <a href="https://loinc.org/100752-5/">100752-5</a>
                 </td>
                 <td>http://loinc.org</td>
@@ -125,7 +125,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---loinc.org-100753-3"> </a>  
+                  <a name="x-http://loinc.org-100753-3"> </a>  
                   <a href="https://loinc.org/100753-3/">100753-3</a>
                 </td>
                 <td>http://loinc.org</td>
@@ -133,7 +133,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="null-x-http---loinc.org-46467-7"> </a>  
+                  <a name="x-http://loinc.org-46467-7"> </a>  
                   <a href="https://loinc.org/46467-7/">46467-7</a>
                 </td>
                 <td>http://loinc.org</td>
@@ -148,8 +148,8 @@
         <status value="draft"/>
         <date value="2024-05-27"/>
         <expansion>
-          <identifier value="urn:uuid:43cc8689-3585-4507-9d9d-c16a27c931d0"/>
-          <timestamp value="2024-08-15T18:54:24-05:00"/>
+          <identifier value="urn:uuid:dc5ff19d-13a5-4527-a0e0-041474f3351f"/>
+          <timestamp value="2024-09-19T23:24:59-05:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -170,11 +170,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.77"/>
+            <valueUri value="http://loinc.org|2.78"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.77"/>
+            <valueUri value="http://loinc.org|2.78"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>

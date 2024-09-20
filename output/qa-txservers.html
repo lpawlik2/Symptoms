@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for SymptomImplementationGuide</h1>
- <p>Generated Thu Aug 15 18:54:40 CDT 2024, FHIR version 4.0.1 for symptom.ig#0.1.0 (canonical = <a href="http://example.org">http://example.org</a> (<a href="http://example.org/history.html">history</a>))</p>
+ <p>Generated Thu Sep 19 23:25:14 CDT 2024, FHIR version 4.0.1 for symptom.ig#0.1.0 (canonical = <a href="http://example.org">http://example.org</a> (<a href="http://example.org/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -23,9 +23,11 @@
 <h2>Tx Manager report for 'http://tx.fhir.org/tx-reg'</h2>
 <ul>
   <li>Request for system [https://www.snomed.org] not handled by any servers. Using master @ 'http://tx.fhir.org/r4'</li>
+  <li>http://example.org/ValueSet/RelatedValueVS|0.1.0 includes multiple systems [https://www.snomed.org, http://hl7.org/fhir/sid/icd-10-cm] best handled by multiple servers: [auth = , candidates=, auth = http://tx.fhir.org/r4, candidates=]. Using master @ 'http://tx.fhir.org/r4'</li>
 </ul>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
-<p>Use Count: 1. Code Systems used: </p>
+<a href="http://tx.fhir.org/r4"></a>
+<p>Use Count: 2. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -42,8 +44,16 @@
     </th>
   </tr>
   <tr>
-    <td>https://www.snomed.org</td>
+    <td>http://hl7.org/fhir/sid/icd-10-cm</td>
+    <td>1</td>
     <td>0</td>
+    <td>
+      <a href="http://terminology.hl7.org/6.0.2/CodeSystem-icd10CM.html">International Classification of Diseases, 10th Revision, Clinical Modification (ICD-10-CM)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://www.snomed.org</td>
+    <td>1</td>
     <td>1</td>
     <td></td>
   </tr>

@@ -1,6 +1,15 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://example.org/ValueSet/AssessmentValueVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "AssessmentValueVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["https://www.snomed.org", "http://hl7.org/fhir/sid/icd-10-cm"]
+    },
+    {
       "url" : "http://example.org/ValueSet/ManifestationVS",
       "version" : "0.1.0",
       "status" : "draft",
@@ -28,13 +37,22 @@
       "systems" : ["http://loinc.org"]
     },
     {
-      "url" : "http://example.org/ValueSet/ScaleVS",
+      "url" : "http://example.org/ValueSet/RelatedValueVS",
       "version" : "0.1.0",
       "status" : "draft",
-      "name" : "ScaleVS",
+      "name" : "RelatedValueVS",
       "title" : null,
       "description" : null,
-      "systems" : ["https://www.snomed.org"]
+      "systems" : ["https://www.snomed.org", "http://hl7.org/fhir/sid/icd-10-cm"]
+    },
+    {
+      "url" : "http://example.org/ValueSet/SymptomsVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SymptomsVS",
+      "title" : null,
+      "description" : null,
+      "systems" : ["https://www.snomed.org", "http://hl7.org/fhir/sid/icd-10-cm"]
     },
     {
       "url" : "http://example.org/ValueSet/TimingVS",

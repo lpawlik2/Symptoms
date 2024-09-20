@@ -10,13 +10,13 @@
   fhir:id [ fhir:v "symptom.ig"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide symptom.ig</b></p><a name=\"symptom.ig\"> </a><a name=\"hcsymptom.ig\"> </a><a name=\"hcsymptom.ig-en-US\"> </a><h2>SymptomImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/symptom.ig</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide symptom.ig</b></p><a name=\"symptom.ig\"> </a><a name=\"hcsymptom.ig\"> </a><a name=\"symptom.ig-en-US\"> </a><h2>SymptomImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/symptom.ig</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "http://example.org/ImplementationGuide/symptom.ig"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SymptomImplementationGuide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-08-15T18:54:16-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-09-19T23:24:50-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "NQF"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "NQF" ] ;
@@ -281,7 +281,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.2.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -514,6 +514,29 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://example.org/StructureDefinition/Abatement> ;
+         fhir:reference [ fhir:v "StructureDefinition/Abatement" ]
+       ] ;
+       fhir:name [ fhir:v "Abatement" ] ;
+       fhir:description [ fhir:v "When in resolution/remission" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/ValueSet/AssessmentValueVS> ;
+         fhir:reference [ fhir:v "ValueSet/AssessmentValueVS" ]
+       ] ;
+       fhir:name [ fhir:v "AssessmentValueVS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://example.org/StructureDefinition/Manifestation> ;
          fhir:reference [ fhir:v "StructureDefinition/Manifestation" ]
        ] ;
@@ -582,10 +605,10 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/ScaleVS> ;
-         fhir:reference [ fhir:v "ValueSet/ScaleVS" ]
+         fhir:link <http://example.org/ValueSet/RelatedValueVS> ;
+         fhir:reference [ fhir:v "ValueSet/RelatedValueVS" ]
        ] ;
-       fhir:name [ fhir:v "ScaleVS" ] ;
+       fhir:name [ fhir:v "RelatedValueVS" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -597,6 +620,17 @@
          fhir:reference [ fhir:v "StructureDefinition/SymptomProfile" ]
        ] ;
        fhir:name [ fhir:v "Symptom Profile" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/ValueSet/SymptomsVS> ;
+         fhir:reference [ fhir:v "ValueSet/SymptomsVS" ]
+       ] ;
+       fhir:name [ fhir:v "SymptomsVS" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

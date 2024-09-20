@@ -1,93 +1,118 @@
 SymptomImplementationGuide : Validation Results
 =========================================
 
-err = 1, warn = 40, info = 3
-IG Publisher Version: 1.6.15 Out of date - current version is 1.6.20
-Generated Thu Aug 15 18:54:40 CDT 2024. FHIR version 4.0.1 for symptom.ig#0.1.0 (canonical = http://example.org)
- Build Errors : 64 / 11 / 0
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\CodeSystem-RelatedStatusCS : 0 / 4 / 2
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\ImplementationGuide-symptom.ig : 0 / 0 / 1
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\StructureDefinition-Manifestation : 0 / 1 / 1
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\StructureDefinition-RelatedStatus : 0 / 1 / 1
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\StructureDefinition-SymptomProfile : 0 / 2 / 2
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\ValueSet-ManifestationVS : 0 / 5 / 1
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\ValueSet-RelatedStatusVS : 0 / 3 / 1
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\ValueSet-RelatedTypeVS : 0 / 4 / 2
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\ValueSet-ScaleVS : 1 / 4 / 1
- C:\Users\joelm\Documents\projects\SymptomProfile\fsh-generated\resources\ValueSet-TimingVS : 0 / 5 / 1
+err = 0, warn = 52, info = 5
+IG Publisher Version: 1.6.25
+Generated Thu Sep 19 23:25:14 CDT 2024. FHIR version 4.0.1 for symptom.ig#0.1.0 (canonical = http://example.org)
+ Build Errors : 84 / 13 / 0
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\CodeSystem-RelatedStatusCS : 0 / 4 / 2
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ImplementationGuide-symptom.ig : 0 / 0 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\StructureDefinition-Abatement : 0 / 1 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\StructureDefinition-Manifestation : 0 / 1 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\StructureDefinition-RelatedStatus : 0 / 1 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\StructureDefinition-SymptomProfile : 0 / 3 / 4
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ValueSet-AssessmentValueVS : 0 / 4 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ValueSet-ManifestationVS : 0 / 5 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ValueSet-RelatedStatusVS : 0 / 3 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ValueSet-RelatedTypeVS : 0 / 4 / 2
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ValueSet-RelatedValueVS : 0 / 4 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ValueSet-SymptomsVS : 0 / 4 / 1
+ C:\Users\joelm\Documents\projects\Symptom-Profile\fsh-generated\resources\ValueSet-TimingVS : 0 / 5 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/SymptomProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/AssessmentValueVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ManifestationVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/RelatedStatusVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/RelatedTypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ScaleVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/RelatedValueVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/SymptomsVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/TimingVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/RelatedStatusCS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\CodeSystem-RelatedStatusCS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\CodeSystem-RelatedStatusCS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\CodeSystem-RelatedStatusCS.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\CodeSystem-RelatedStatusCS.json.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\CodeSystem-RelatedStatusCS.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\CodeSystem-RelatedStatusCS.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation-definitions.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation-mappings.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation-testing.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation.html#/html/body/div/div/div/p/a at Line 579, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation.profile.history.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation.profile.json.html#/html/body/div/div/div/p/a at Line 513, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation.profile.ttl.html#/html/body/div/div/div/p/a at Line 450, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-Manifestation.profile.xml.html#/html/body/div/div/div/p/a at Line 475, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus-definitions.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus-mappings.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus-testing.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus.html#/html/body/div/div/div/p/a at Line 579, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus.profile.history.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus.profile.json.html#/html/body/div/div/div/p/a at Line 513, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus.profile.ttl.html#/html/body/div/div/div/p/a at Line 450, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-RelatedStatus.profile.xml.html#/html/body/div/div/div/p/a at Line 475, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile-definitions.html#/html/body/div/div/div/p/a at Line 841, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile-examples.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile-mappings.html#/html/body/div/div/div/p/a at Line 405, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile-testing.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile.html#/html/body/div/div/div/p/a at Line 3148, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile.profile.history.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile.profile.json.html#/html/body/div/div/div/p/a at Line 4602, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile.profile.ttl.html#/html/body/div/div/div/p/a at Line 3335, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\StructureDefinition-SymptomProfile.profile.xml.html#/html/body/div/div/div/p/a at Line 4336, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ManifestationVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ManifestationVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ManifestationVS.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ManifestationVS.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ManifestationVS.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ManifestationVS.xml.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedStatusVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedStatusVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedStatusVS.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedStatusVS.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedStatusVS.ttl.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedStatusVS.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedTypeVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedTypeVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedTypeVS.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedTypeVS.json.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedTypeVS.ttl.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-RelatedTypeVS.xml.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ScaleVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ScaleVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ScaleVS.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ScaleVS.json.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ScaleVS.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-ScaleVS.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-TimingVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-TimingVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-TimingVS.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-TimingVS.json.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-TimingVS.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\ValueSet-TimingVS.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\artifacts.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\index.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
-ERROR: C:\Users\joelm\Documents\projects\SymptomProfile\output\toc.html#/html/body/div/div/div/p/a at Line 140, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\CodeSystem-RelatedStatusCS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\CodeSystem-RelatedStatusCS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\CodeSystem-RelatedStatusCS.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\CodeSystem-RelatedStatusCS.json.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\CodeSystem-RelatedStatusCS.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\CodeSystem-RelatedStatusCS.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement-definitions.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement-mappings.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement-testing.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement.html#/html/body/div/div/div/p/a at Line 704, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement.profile.history.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement.profile.json.html#/html/body/div/div/div/p/a at Line 529, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement.profile.ttl.html#/html/body/div/div/div/p/a at Line 448, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Abatement.profile.xml.html#/html/body/div/div/div/p/a at Line 493, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation-definitions.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation-mappings.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation-testing.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation.html#/html/body/div/div/div/p/a at Line 579, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation.profile.history.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation.profile.json.html#/html/body/div/div/div/p/a at Line 513, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation.profile.ttl.html#/html/body/div/div/div/p/a at Line 450, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-Manifestation.profile.xml.html#/html/body/div/div/div/p/a at Line 475, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus-definitions.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus-mappings.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus-testing.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus.html#/html/body/div/div/div/p/a at Line 579, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus.profile.history.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus.profile.json.html#/html/body/div/div/div/p/a at Line 513, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus.profile.ttl.html#/html/body/div/div/div/p/a at Line 450, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-RelatedStatus.profile.xml.html#/html/body/div/div/div/p/a at Line 475, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile-definitions.html#/html/body/div/div/div/p/a at Line 847, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile-examples.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile-mappings.html#/html/body/div/div/div/p/a at Line 405, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile-testing.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile.html#/html/body/div/div/div/p/a at Line 3244, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile.profile.history.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile.profile.json.html#/html/body/div/div/div/p/a at Line 4680, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile.profile.ttl.html#/html/body/div/div/div/p/a at Line 3403, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\StructureDefinition-SymptomProfile.profile.xml.html#/html/body/div/div/div/p/a at Line 4408, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-AssessmentValueVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-AssessmentValueVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-AssessmentValueVS.html#/html/body/div/div/div/p/a at Line 281, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-AssessmentValueVS.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-AssessmentValueVS.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-AssessmentValueVS.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-ManifestationVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-ManifestationVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-ManifestationVS.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-ManifestationVS.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-ManifestationVS.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-ManifestationVS.xml.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedStatusVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedStatusVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedStatusVS.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedStatusVS.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedStatusVS.ttl.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedStatusVS.xml.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedTypeVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedTypeVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedTypeVS.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedTypeVS.json.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedTypeVS.ttl.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedTypeVS.xml.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedValueVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedValueVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedValueVS.html#/html/body/div/div/div/p/a at Line 281, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedValueVS.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedValueVS.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-RelatedValueVS.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-SymptomsVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-SymptomsVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-SymptomsVS.html#/html/body/div/div/div/p/a at Line 281, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-SymptomsVS.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-SymptomsVS.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-SymptomsVS.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-TimingVS-testing.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-TimingVS.change.history.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-TimingVS.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-TimingVS.json.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-TimingVS.ttl.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\ValueSet-TimingVS.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\artifacts.html#/html/body/div/div/div/p/a at Line 272, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\index.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
+ERROR: C:\Users\joelm\Documents\projects\Symptom-Profile\output\toc.html#/html/body/div/div/div/p/a at Line 140, column 28: The link 'http://example.org/example-publisher' for "NQF" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -99,14 +124,24 @@ WARNING: CodeSystem/RelatedStatusCS: CodeSystem: Published code systems SHOULD c
 WARNING: CodeSystem/RelatedStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
 WARNING: CodeSystem/RelatedStatusCS: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated\resources\ImplementationGuide-symptom.ig.json ==
+== fsh-generated\resources\StructureDefinition-Abatement.json ==
+WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/Abatement'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-Manifestation.json ==
 WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/Manifestation'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-RelatedStatus.json ==
 WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/RelatedStatus'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-SymptomProfile.json ==
-INFORMATION: StructureDefinition/SymptomProfile: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
-WARNING: StructureDefinition/SymptomProfile: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: StructureDefinition/SymptomProfile: StructureDefinition.differential.element[21].binding: The element Observation.component.value[x] has a binding, and has multiple types subject to bindings ([Quantity, Ratio, CodeableConcept]). The binding will apply to all the types
+INFORMATION: StructureDefinition/SymptomProfile: StructureDefinition.differential.element[26].binding: The element Observation.component.value[x] has a binding, and has multiple types subject to bindings ([string, CodeableConcept]). The binding will apply to all the types
+WARNING: StructureDefinition/SymptomProfile: StructureDefinition.snapshot.element[4].binding: The definition for the element 'Observation.language' binds to the value set 'http://hl7.org/fhir/ValueSet/languages' which is experimental, but this structure is not labeled as experimental
+INFORMATION: StructureDefinition/SymptomProfile: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition/SymptomProfile: StructureDefinition.snapshot.element[15].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
 WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/SymptomProfile'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\ValueSet-AssessmentValueVS.json ==
+WARNING: ValueSet/AssessmentValueVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/AssessmentValueVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/AssessmentValueVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'AssessmentValueVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.snomed.org
 == fsh-generated\resources\ValueSet-ManifestationVS.json ==
 WARNING: ValueSet/ManifestationVS: ValueSet.compose.include[0]: Unknown System 'https://www.snomed.org' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://www.snomed.org' could not be found, so the code cannot be validated)
 WARNING: ValueSet/ManifestationVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -118,17 +153,21 @@ WARNING: ValueSet/RelatedStatusVS: ValueSet: Published value sets SHOULD conform
 WARNING: ValueSet/RelatedStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet/RelatedStatusVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
 == fsh-generated\resources\ValueSet-RelatedTypeVS.json ==
-WARNING: ValueSet/RelatedTypeVS: ValueSet.compose.include[0].concept[0]: The code 'TBD' is not valid in the system http://loinc.org (Unknown code 'TBD' in the CodeSystem 'http://loinc.org' version '2.77')
-INFORMATION: ValueSet/RelatedTypeVS: ValueSet.compose.include[0].concept[0]: Unknown code 'TBD' in the CodeSystem 'http://loinc.org' version '2.77'
+WARNING: ValueSet/RelatedTypeVS: ValueSet.compose.include[0].concept[0]: The code 'TBD' is not valid in the system http://loinc.org (Unknown code 'TBD' in the CodeSystem 'http://loinc.org' version '2.78')
+INFORMATION: ValueSet/RelatedTypeVS: ValueSet.compose.include[0].concept[0]: Unknown code 'TBD' in the CodeSystem 'http://loinc.org' version '2.78'
 WARNING: ValueSet/RelatedTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/RelatedTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet/RelatedTypeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
-== fsh-generated\resources\ValueSet-ScaleVS.json ==
-ERROR: ValueSet/ScaleVS: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'https://www.snomed.org', and '4157120' is not (A definition for CodeSystem 'https://www.snomed.org' could not be found, so the code cannot be validated)
-WARNING: ValueSet/ScaleVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-WARNING: ValueSet/ScaleVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-WARNING: ValueSet/ScaleVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
-WARNING: ValueSet.where(id = 'ScaleVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.snomed.org
+== fsh-generated\resources\ValueSet-RelatedValueVS.json ==
+WARNING: ValueSet/RelatedValueVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/RelatedValueVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/RelatedValueVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'RelatedValueVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.snomed.org
+== fsh-generated\resources\ValueSet-SymptomsVS.json ==
+WARNING: ValueSet/SymptomsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/SymptomsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/SymptomsVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'SymptomsVS'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.snomed.org
 == fsh-generated\resources\ValueSet-TimingVS.json ==
 WARNING: ValueSet/TimingVS: ValueSet.compose.include[0]: Unknown System 'https://www.snomed.org' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'https://www.snomed.org' could not be found, so the code cannot be validated)
 WARNING: ValueSet/TimingVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present

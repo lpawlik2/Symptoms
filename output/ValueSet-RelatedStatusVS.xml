@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="RelatedStatusVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet RelatedStatusVS</b></p><a name="RelatedStatusVS"> </a><a name="hcRelatedStatusVS"> </a><a name="hcRelatedStatusVS-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-RelatedStatusCS.html"><code>http://example.org/CodeSystem/RelatedStatusCS</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet RelatedStatusVS</b></p><a name="RelatedStatusVS"> </a><a name="hcRelatedStatusVS"> </a><a name="RelatedStatusVS-en-US"> </a><ul><li>Include all codes defined in <a href="CodeSystem-RelatedStatusCS.html"><code>http://example.org/CodeSystem/RelatedStatusCS</code></a></li></ul></div>
   </text>
   <url value="http://example.org/ValueSet/RelatedStatusVS"/>
   <version value="0.1.0"/>

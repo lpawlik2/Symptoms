@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "48af7a8b-02a2-4ce5-b1b8-aa7162ed5a0e",
+  "id" : "73094359-361e-4954-8655-4abbdecbdf7e",
   "meta" : {
-    "lastUpdated" : "2024-08-15T18:54:16.415-05:00"
+    "lastUpdated" : "2024-09-19T23:24:50.320-05:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,7 +11,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-RelatedStatusCS.html\">codesystem RelatedStatusCS v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---example.org-CodeSystem-RelatedStatusCS-absent\"> </a>\u00a0\u00a0<a href=\"CodeSystem-RelatedStatusCS.html#RelatedStatusCS-absent\">absent</a></td><td>http://example.org/CodeSystem/RelatedStatusCS</td><td>Absent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---example.org-CodeSystem-RelatedStatusCS-present\"> </a>\u00a0\u00a0<a href=\"CodeSystem-RelatedStatusCS.html#RelatedStatusCS-present\">present</a></td><td>http://example.org/CodeSystem/RelatedStatusCS</td><td>Present</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-RelatedStatusCS.html\">codesystem RelatedStatusCS v0.1.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/CodeSystem/RelatedStatusCS-absent\"> </a>\u00a0\u00a0<a href=\"CodeSystem-RelatedStatusCS.html#RelatedStatusCS-absent\">absent</a></td><td>http://example.org/CodeSystem/RelatedStatusCS</td><td>Absent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://example.org/CodeSystem/RelatedStatusCS-present\"> </a>\u00a0\u00a0<a href=\"CodeSystem-RelatedStatusCS.html#RelatedStatusCS-present\">present</a></td><td>http://example.org/CodeSystem/RelatedStatusCS</td><td>Present</td></tr></table></div>"
       },
       "url" : "http://example.org/ValueSet/RelatedStatusVS",
       "version" : "0.1.0",
@@ -19,8 +19,8 @@
       "status" : "draft",
       "date" : "2024-05-27",
       "expansion" : {
-        "identifier" : "urn:uuid:073a6f2c-ec19-4aad-9311-72fb0b31019b",
-        "timestamp" : "2024-08-15T18:54:24-05:00",
+        "identifier" : "urn:uuid:f8a0b936-1a18-49c0-b911-dff176b66847",
+        "timestamp" : "2024-09-19T23:24:59-05:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -58,7 +58,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.77</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---loinc.org-100752-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/100752-5/\">100752-5</a></td><td>http://loinc.org</td><td>Exacerbating factors - Reported</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---loinc.org-100753-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/100753-3/\">100753-3</a></td><td>http://loinc.org</td><td>Alleviating factors - Reported</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"null-x-http---loinc.org-46467-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/46467-7/\">46467-7</a></td><td>http://loinc.org</td><td>Risk factors</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.78</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-100752-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/100752-5/\">100752-5</a></td><td>http://loinc.org</td><td>Exacerbating factors - Reported</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-100753-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/100753-3/\">100753-3</a></td><td>http://loinc.org</td><td>Alleviating factors - Reported</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-46467-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/46467-7/\">46467-7</a></td><td>http://loinc.org</td><td>Risk factors</td></tr></table></div>"
       },
       "url" : "http://example.org/ValueSet/RelatedTypeVS",
       "version" : "0.1.0",
@@ -66,8 +66,8 @@
       "status" : "draft",
       "date" : "2024-05-27",
       "expansion" : {
-        "identifier" : "urn:uuid:43cc8689-3585-4507-9d9d-c16a27c931d0",
-        "timestamp" : "2024-08-15T18:54:24-05:00",
+        "identifier" : "urn:uuid:dc5ff19d-13a5-4527-a0e0-041474f3351f",
+        "timestamp" : "2024-09-19T23:24:59-05:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -88,11 +88,11 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://loinc.org|2.77"
+          "valueUri" : "http://loinc.org|2.78"
         },
         {
           "name" : "version",
-          "valueUri" : "http://loinc.org|2.77"
+          "valueUri" : "http://loinc.org|2.78"
         }],
         "contains" : [{
           "system" : "http://loinc.org",

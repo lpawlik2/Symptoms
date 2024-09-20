@@ -14,6 +14,13 @@
     "name" : "SymptomImplementationGuide"
   },
   {
+    "id" : "Abatement",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/Abatement",
+    "version" : "0.1.0",
+    "name" : "Abatement"
+  },
+  {
     "id" : "Manifestation",
     "type" : "StructureDefinition",
     "url" : "http://example.org/StructureDefinition/Manifestation",
@@ -33,6 +40,13 @@
     "url" : "http://example.org/StructureDefinition/SymptomProfile",
     "version" : "0.1.0",
     "name" : "SymptomProfile"
+  },
+  {
+    "id" : "AssessmentValueVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/AssessmentValueVS",
+    "version" : "0.1.0",
+    "name" : "AssessmentValueVS"
   },
   {
     "id" : "ManifestationVS",
@@ -56,11 +70,18 @@
     "name" : "RelatedTypeVS"
   },
   {
-    "id" : "ScaleVS",
+    "id" : "RelatedValueVS",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/ScaleVS",
+    "url" : "http://example.org/ValueSet/RelatedValueVS",
     "version" : "0.1.0",
-    "name" : "ScaleVS"
+    "name" : "RelatedValueVS"
+  },
+  {
+    "id" : "SymptomsVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/SymptomsVS",
+    "version" : "0.1.0",
+    "name" : "SymptomsVS"
   },
   {
     "id" : "TimingVS",

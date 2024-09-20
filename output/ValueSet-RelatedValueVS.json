@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "RelatedValueVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet RelatedValueVS</b></p><a name=\"RelatedValueVS\"> </a><a name=\"hcRelatedValueVS\"> </a><a name=\"RelatedValueVS-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>https://www.snomed.org</code></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/6.0.2/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a></li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/RelatedValueVS",
+  "version" : "0.1.0",
+  "name" : "RelatedValueVS",
+  "status" : "draft",
+  "date" : "2024-05-27",
+  "publisher" : "NQF",
+  "contact" : [{
+    "name" : "NQF",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.snomed.org"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm"
+    }]
+  }
+}

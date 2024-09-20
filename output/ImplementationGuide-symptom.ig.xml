@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="symptom.ig"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide symptom.ig</b></p><a name="symptom.ig"> </a><a name="hcsymptom.ig"> </a><a name="hcsymptom.ig-en-US"> </a><h2>SymptomImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/symptom.ig</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide symptom.ig</b></p><a name="symptom.ig"> </a><a name="hcsymptom.ig"> </a><a name="symptom.ig-en-US"> </a><h2>SymptomImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/symptom.ig</pre></div>
   </text>
   <url value="http://example.org/ImplementationGuide/symptom.ig"/>
   <version value="0.1.0"/>
   <name value="SymptomImplementationGuide"/>
   <status value="draft"/>
-  <date value="2024-08-15T18:54:16-05:00"/>
+  <date value="2024-09-19T23:24:50-05:00"/>
   <publisher value="NQF"/>
   <contact>
     <name value="NQF"/>
@@ -239,7 +239,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
+      <valueCode value="hl7.fhir.uv.tools#0.2.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -446,6 +446,27 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/Abatement"/>
+      </reference>
+      <name value="Abatement"/>
+      <description value="When in resolution/remission"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/AssessmentValueVS"/>
+      </reference>
+      <name value="AssessmentValueVS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/Manifestation"/>
       </reference>
       <name value="Manifestation"/>
@@ -508,9 +529,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/ScaleVS"/>
+        <reference value="ValueSet/RelatedValueVS"/>
       </reference>
-      <name value="ScaleVS"/>
+      <name value="RelatedValueVS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -521,6 +542,16 @@
         <reference value="StructureDefinition/SymptomProfile"/>
       </reference>
       <name value="Symptom Profile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SymptomsVS"/>
+      </reference>
+      <name value="SymptomsVS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
